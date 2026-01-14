@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Garage Door Repair Calgary | 24/7 Fast Response | (403) 555-1234</title>
+    <meta name="description" content="24/7 emergency garage door repair in Calgary. Door stuck? Spring broken? Vehicle trapped? Local technicians dispatched immediately. Same-day service across all Calgary communities.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #1a2642;
+            --charcoal: #2d3748;
+            --amber: #d97706;
+            --amber-dark: #b45309;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --red-50: #fef2f2;
+            --red-600: #dc2626;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.65;
+            color: var(--charcoal);
+            font-size: 17px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--navy);
+            text-decoration: none;
+            letter-spacing: -0.01em;
+            white-space: nowrap;
+        }
+
+        .logo-mark {
+            display: inline-block;
+            background: var(--navy);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .main-nav {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
+
+        .main-nav a {
+            color: var(--gray-700);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+            white-space: nowrap;
+        }
+
+        .main-nav a:hover {
+            color: var(--navy);
+        }
+
+        .header-cta {
+            background: var(--amber);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+
+        .header-cta:hover {
+            background: var(--amber-dark);
+        }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .menu-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--navy);
+            margin: 5px 0;
+            transition: 0.3s;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 20px 24px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .mobile-menu.active {
+            display: block;
+        }
+
+        .mobile-menu a {
+            display: block;
+            color: var(--gray-700);
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 500;
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        .mobile-menu a:hover {
+            color: var(--navy);
+        }
+
+        /* Hero */
+        .hero {
+            background: var(--navy);
+            color: white;
+            padding: 80px 24px 100px;
+        }
+
+        .hero-container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .emergency-badge {
+            display: inline-block;
+            background: rgba(220, 38, 38, 0.12);
+            border: 1px solid rgba(220, 38, 38, 0.25);
+            color: #fca5a5;
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            font-size: 2.75rem;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            max-width: 720px;
+        }
+
+        .hero-subheading {
+            font-size: 1.25rem;
+            margin-bottom: 40px;
+            color: rgba(255,255,255,0.85);
+            line-height: 1.55;
+            font-weight: 400;
+            max-width: 620px;
+        }
+
+        .cta-primary {
+            background: var(--amber);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.15rem;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .cta-primary:hover {
+            background: var(--amber-dark);
+        }
+
+        .trust-line {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.12);
+            display: flex;
+            gap: 36px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: rgba(255,255,255,0.75);
+        }
+
+        .trust-line span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .trust-line svg {
+            opacity: 0.5;
+        }
+
+        /* Sections */
+        section {
+            padding: 72px 24px;
+        }
+
+        .section-container {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: var(--navy);
+            font-weight: 700;
+            letter-spacing: -0.015em;
+            line-height: 1.25;
+            margin-bottom: 16px;
+        }
+
+        .section-intro {
+            font-size: 1.125rem;
+            color: var(--gray-600);
+            line-height: 1.65;
+            margin-bottom: 48px;
+            max-width: 680px;
+        }
+
+        /* Emergency Issues */
+        .issues-section {
+            background: var(--gray-50);
+        }
+
+        .issues-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .issue-card {
+            background: white;
+            padding: 28px;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .issue-label {
+            display: inline-block;
+            background: var(--red-50);
+            color: var(--red-600);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .issue-card h3 {
+            font-size: 1.1rem;
+            color: var(--navy);
+            font-weight: 600;
+            margin-bottom: 6px;
+            letter-spacing: -0.01em;
+        }
+
+        .issue-card p {
+            font-size: 0.95rem;
+            color: var(--gray-600);
+            line-height: 1.5;
+        }
+
+        /* Safety Warning */
+        .safety-section {
+            background: var(--red-50);
+        }
+
+        .safety-box {
+            max-width: 840px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            border-left: 4px solid var(--red-600);
+        }
+
+        .safety-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .warning-icon {
+            flex-shrink: 0;
+            color: var(--red-600);
+        }
+
+        .safety-header h2 {
+            font-size: 1.5rem;
+            color: var(--red-600);
+            margin-bottom: 0;
+        }
+
+        .safety-content {
+            font-size: 1.05rem;
+            color: var(--charcoal);
+            line-height: 1.7;
+        }
+
+        .safety-content p {
+            margin-bottom: 16px;
+        }
+
+        .safety-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .safety-cta {
+            margin-top: 32px;
+        }
+
+        /* Service Areas */
+        .areas-section {
+            background: white;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .area-group h3 {
+            font-size: 1.1rem;
+            color: var(--navy);
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .neighborhoods {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .neighborhood {
+            background: var(--gray-100);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: var(--gray-700);
+        }
+
+        /* Form Section */
+        .form-section {
+            background: var(--gray-50);
+        }
+
+        .form-container {
+            max-width: 560px;
+            margin: 0 auto;
+            background: white;
+            padding: 48px;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .form-intro {
+            text-align: center;
+            color: var(--gray-600);
+            margin-bottom: 32px;
+        }
+
+        .form-callout {
+            background: #fef3c7;
+            border-left: 3px solid var(--amber);
+            padding: 14px 18px;
+            margin-bottom: 28px;
+            font-size: 0.9rem;
+            color: #78350f;
+            border-radius: 4px;
+        }
+
+        .form-callout strong {
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--navy);
+            font-size: 0.9rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: inherit;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--amber);
+            box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-button {
+            width: 100%;
+            background: var(--amber);
+            color: white;
+            padding: 14px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .form-button:hover {
+            background: var(--amber-dark);
+        }
+
+        .form-note {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            font-style: italic;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: var(--navy);
+            color: white;
+            text-align: center;
+            padding: 80px 24px;
+        }
+
+        .cta-section h2 {
+            color: white;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            font-size: 1.15rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--gray-800);
+            color: rgba(255,255,255,0.7);
+            padding: 56px 24px 32px;
+        }
+
+        .footer-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            color: white;
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .footer-column p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.5);
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            margin-bottom: 8px;
+        }
+
+        /* Mobile CTA */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--amber);
+            padding: 16px 20px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
+            z-index: 99;
+        }
+
+        .mobile-cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.15rem;
+            display: block;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .main-nav {
+                display: none;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .header-container {
+                gap: 16px;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            .header-cta {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mobile-cta {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subheading {
+                font-size: 1.1rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .form-container {
+                padding: 32px 24px;
+            }
+
+            section {
+                padding: 56px 24px;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            .header-cta {
+                padding: 10px 16px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span class="logo-mark">YYC</span>
+                Calgary Emergency Garage Door
+            </a>
+            
+            <nav class="main-nav">
+                <a href="/">Emergency Repair</a>
+                <a href="/broken-springs.html">Broken Springs</a>
+                <a href="/cable-track.html">Cable & Track</a>
+                <a href="/service-areas.html">Service Areas</a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <a href="tel:4035551234" class="header-cta">Call: (403) 555-1234</a>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/">Emergency Repair</a>
+            <a href="/broken-springs.html">Broken Springs</a>
+            <a href="/cable-track.html">Cable & Track</a>
+            <a href="/service-areas.html">Service Areas</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="emergency-badge">24/7 Emergency Dispatch</div>
+            <h1>Emergency Garage Door Repair in Calgary</h1>
+            <p class="hero-subheading">Door stuck? Spring broken? Vehicle trapped? We dispatch local technicians immediately.</p>
+            <a href="tel:4035551234" class="cta-primary">Call Now: (403) 555-1234</a>
+            
+            <div class="trust-line">
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Same-day service
+                </span>
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Licensed & insured
+                </span>
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.6667 5L7.50004 14.1667L3.33337 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    No obligation assessment
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Issues -->
+    <section class="issues-section">
+        <div class="section-container">
+            <h2>Common Garage Door Emergencies</h2>
+            <p class="section-intro">If you're experiencing any of these issues, call us now for immediate assistance.</p>
+
+            <div class="issues-grid">
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Door Won't Open or Close</h3>
+                    <p>Complete failure to operate</p>
+                </div>
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Broken Spring</h3>
+                    <p>Snapped torsion or extension springs</p>
+                </div>
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Snapped Cables</h3>
+                    <p>Broken lift cables causing imbalance</p>
+                </div>
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Door Stuck Halfway</h3>
+                    <p>Won't fully open or close</p>
+                </div>
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Vehicle Trapped Inside</h3>
+                    <p>Can't access your car</p>
+                </div>
+                <div class="issue-card">
+                    <div class="issue-label">Urgent</div>
+                    <h3>Door Off Track</h3>
+                    <p>Misaligned or grinding sounds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Warning -->
+    <section class="safety-section">
+        <div class="section-container">
+            <div class="safety-box">
+                <div class="safety-header">
+                    <svg class="warning-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                        <line x1="12" y1="9" x2="12" y2="13"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                    <h2>Do Not Attempt DIY Spring Repair</h2>
+                </div>
+                <div class="safety-content">
+                    <p>Garage doors are heavy — most residential doors weigh between 130 and 350 pounds. When springs or cables fail, that weight becomes unpredictable and dangerous.</p>
+                    <p>Torsion springs store immense energy. If a spring snaps or is improperly handled, it can cause serious injury. This is why we never recommend DIY repairs.</p>
+                    <p>Always call a professional for spring-related issues.</p>
+                </div>
+                <div class="safety-cta">
+                    <a href="tel:4035551234" class="cta-primary">Call Now: (403) 555-1234</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="areas-section">
+        <div class="section-container">
+            <h2>Service Areas in Calgary</h2>
+            <p class="section-intro">We provide 24/7 emergency garage door repair throughout Calgary and surrounding communities.</p>
+
+            <div class="areas-grid">
+                <div class="area-group">
+                    <h3>Calgary NW</h3>
+                    <div class="neighborhoods">
+                        <span class="neighborhood">Varsity</span>
+                        <span class="neighborhood">Brentwood</span>
+                        <span class="neighborhood">Crowfoot</span>
+                        <span class="neighborhood">Dalhousie</span>
+                        <span class="neighborhood">Edgemont</span>
+                        <span class="neighborhood">Hamptons</span>
+                        <span class="neighborhood">Kincora</span>
+                        <span class="neighborhood">Nolan Hill</span>
+                        <span class="neighborhood">Panorama Hills</span>
+                        <span class="neighborhood">Sage Hill</span>
+                        <span class="neighborhood">Tuscany</span>
+                    </div>
+                </div>
+
+                <div class="area-group">
+                    <h3>Calgary NE</h3>
+                    <div class="neighborhoods">
+                        <span class="neighborhood">Abbeydale</span>
+                        <span class="neighborhood">Castleridge</span>
+                        <span class="neighborhood">Coral Springs</span>
+                        <span class="neighborhood">Falconridge</span>
+                        <span class="neighborhood">Marlborough</span>
+                        <span class="neighborhood">Monterey Park</span>
+                        <span class="neighborhood">Pineridge</span>
+                        <span class="neighborhood">Saddleridge</span>
+                        <span class="neighborhood">Skyview Ranch</span>
+                        <span class="neighborhood">Taradale</span>
+                        <span class="neighborhood">Temple</span>
+                    </div>
+                </div>
+
+                <div class="area-group">
+                    <h3>Calgary SW</h3>
+                    <div class="neighborhoods">
+                        <span class="neighborhood">Aspen Woods</span>
+                        <span class="neighborhood">Bridlewood</span>
+                        <span class="neighborhood">Coach Hill</span>
+                        <span class="neighborhood">Discovery Ridge</span>
+                        <span class="neighborhood">Killarney</span>
+                        <span class="neighborhood">Lakeview</span>
+                        <span class="neighborhood">Marda Loop</span>
+                        <span class="neighborhood">Patterson</span>
+                        <span class="neighborhood">Signal Hill</span>
+                        <span class="neighborhood">Springbank Hill</span>
+                        <span class="neighborhood">Woodbine</span>
+                    </div>
+                </div>
+
+                <div class="area-group">
+                    <h3>Calgary SE</h3>
+                    <div class="neighborhoods">
+                        <span class="neighborhood">Acadia</span>
+                        <span class="neighborhood">Auburn Bay</span>
+                        <span class="neighborhood">Copperfield</span>
+                        <span class="neighborhood">Cranston</span>
+                        <span class="neighborhood">Douglasdale</span>
+                        <span class="neighborhood">Lake Bonavista</span>
+                        <span class="neighborhood">Legacy</span>
+                        <span class="neighborhood">Mahogany</span>
+                        <span class="neighborhood">McKenzie Lake</span>
+                        <span class="neighborhood">New Brighton</span>
+                        <span class="neighborhood">Ogden</span>
+                        <span class="neighborhood">Walden</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 56px; text-align: center; padding: 40px; background: var(--gray-50); border-radius: 8px;">
+                <h3 style="color: var(--navy); margin-bottom: 12px; font-size: 1.3rem;">Surrounding Communities</h3>
+                <p style="color: var(--gray-600); margin-bottom: 20px;">Serving Airdrie, Chestermere, Okotoks, Cochrane, Strathmore, and High River</p>
+                <a href="tel:4035551234" class="cta-primary">Call to Confirm Your Area</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="section-container">
+            <div class="form-container">
+                <h2>Request Emergency Service</h2>
+                <p class="form-intro">We'll dispatch a technician to your location as soon as possible.</p>
+                
+                <div class="form-callout">
+                    <strong>For fastest response:</strong> Call us directly at (403) 555-1234
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address or Area</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue">Describe the issue</label>
+                        <textarea id="issue" name="issue" required></textarea>
+                    </div>
+
+                    <button type="submit" class="form-button">Request Emergency Service</button>
+                    
+                    <p class="form-note">You're not bothering us — we handle emergencies like this every day.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="section-container">
+            <h2>Get Help Now</h2>
+            <p>Our network of local Calgary technicians is available 24/7 for emergency repairs.</p>
+            <a href="tel:4035551234" class="cta-primary">Call Now: (403) 555-1234</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Calgary Emergency Garage Door Repair</h3>
+                <p>24/7 emergency garage door repair service for Calgary and surrounding areas.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#emergency">Emergency Repair</a></li>
+                    <li><a href="#springs">Broken Springs</a></li>
+                    <li><a href="#cables">Cable & Track</a></li>
+                    <li><a href="#areas">Service Areas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li><a href="tel:4035551234">(403) 555-1234</a></li>
+                    <li>Calgary, Alberta</li>
+                    <li>24/7 Emergency Service</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Areas</h3>
+                <ul class="footer-links">
+                    <li>Calgary NW, NE, SW, SE</li>
+                    <li>Airdrie</li>
+                    <li>Chestermere</li>
+                    <li>Okotoks</li>
+                    <li>Cochrane</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>We dispatch local independent garage door technicians. Availability subject to technician availability.</p>
+            <p>&copy; 2026 Calgary Emergency Garage Door Repair. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta">
+        <a href="tel:4035551234">Call Now: (403) 555-1234</a>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuToggle.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInside = menuToggle.contains(event.target) || mobileMenu.contains(event.target);
+            if (!isClickInside && mobileMenu.classList.contains('active')) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+
+</body>
+</html>
